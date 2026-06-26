@@ -1,0 +1,83 @@
+Você é um dos 3 melhores designers + desenvolvedores do mundo em sites de festival com estética **Black Grunge Premium** (estilo exatamente igual ao "Felabration 2026 Pitch Master.pdf" que está anexado no projeto).
+
+### MISSÃO
+Transforme o template atual (index.html + style.css + script.js) em um site **100% fiel** à identidade visual e ao conteúdo do Pitch Master PDF (12 páginas). O resultado deve parecer que o site foi extraído diretamente do pitch deck, mas em formato web interativo, ultra-moderno e imersivo.
+
+### IDENTIDADE VISUAL OBRIGATÓRIA (copie fielmente do PDF)
+
+**Fundo:** Preto profundo com textura de madeira rachada / papel envelhecido / grain sutil (use background com noise + subtle texture)
+
+**Tipografia:**
+- Títulos principais: Fonte bold, condensada, distressed/grunge (use "Bebas Neue" ou "Impact" com efeitos de rasgo, distorção e grain)
+- Cor principal dos títulos: Branco sujo + vermelho sangue (#E6392B) + amarelo sujo (#FFD700) em alguns destaques
+
+**Elementos visuais fixos do pitch:**
+- Molduras de polaroid com bordas brancas rasgadas (torn paper effect) + leve rotação aleatória
+- Digital da África (fingerprint) em vários tamanhos e cores (laranja, vermelho, verde)
+- Estrelas recortadas com fotos dentro (como na página 6)
+- Papel rasgado / fita adesiva / vinheta pesada nas imagens
+- Alto contraste + grain + leve desaturação nas fotos
+
+**Cores exatas do Pitch Master:**
+- Background: #0A0A0A + textura
+- Texto principal: #F5F0E8 (branco sujo)
+- Destaque vermelho: #E6392B
+- Destaque amarelo: #FFD700
+- Verde: #00A86B (usar com moderação)
+- Cyan neon sutil apenas em detalhes tecnológicos
+
+**Navegação (exatamente como no pitch):**
+Logo esquerdo: fone de ouvido + "AFROBEAT MUSIC FESTIVAL"
+Links: MÚSICA | ARTE | EDUCAÇÃO | INOVAÇÃO
+Botão direito: "EVENTO 100% GRATUITO"
+
+### ESTRUTURA DE SEÇÕES (respeite a ordem e conteúdo do PDF)
+
+1. **Hero** → Página 1 do pitch (Fela de punhos erguidos + ponte iluminada + "FELABRATION FLORIPA" gigante + digital da África + partículas de luz)
+
+2. **A RUA É O PALCO** → Página 2 (texto exato + 4 polaroids sobrepostas)
+
+3. **FESTIVAL AFRO-DIASPÓRICO** → Página 3 (título grande + texto + colagem circular de fotos)
+
+4. **FUNMILAYO RANSOME-KUTI** → Página 4 (título grande amarelo + foto da mãe + texto + Fela de punhos)
+
+5. **CURADORIA ARTÍSTICA + ECONOMIA CRIATIVA** → Página 5 (layout dividido com polaroids à esquerda)
+
+6. **EIXOS CURATORIAIS** → Página 6 (7 eixos com estrelas recortadas e fotos – use grid de estrelas ou polaroids grandes)
+
+7. **IMPACTO SOCIAL** → Página 7 (3 colunas com digital da África colorida + texto grande no rodapé)
+
+8. **SEJA PATROCINADOR** → Página 8 (círculo branco com logos + texto à direita)
+
+9. **POR QUE SUA MARCA...** + **ODS + ESG** → Página 9 (layout de 3 colunas com ícones de digital)
+
+10. **MINI BIO BOTA PRA MEXER** → Página 10 (fotos em polaroid + textos de Nenuco, DeShA e produtora)
+
+11. **MANIFESTO** → Página 11 (texto grande + 3 polaroids ovais)
+
+12. **CONTATO + OBRIGADO** → Página 12 (mural de grafite + texto final + contato)
+
+### REGRAS TÉCNICAS (Replit Core)
+
+- Use Tailwind CSS + CSS custom para efeitos grunge (torn paper, grain, distressed text)
+- Canvas no hero com partículas de luz + digital da África sutil
+- Todos os cards de artista e galeria em estilo polaroid com hover 3D + tilt
+- Mini player fixo no canto inferior com visualizer (igual ao template atual, mas com estética grunge)
+- Scroll reveal com efeito "papel rasgando"
+- Totalmente responsivo (mobile-first)
+- Performance excelente (< 1.5s load)
+- Sem seção de ingressos (entrada 100% gratuita em todos os lugares)
+- Mantenha o mini player e o modal de artista, mas estilize no tema grunge
+
+### CONTEÚDO
+Copie os textos **quase verbatim** do PDF (ajuste apenas para fluir melhor no web). Use os títulos exatos: "A RUA É O PALCO", "FESTIVAL AFRO-DIASPÓRICO", "FUNMILAYO RANSOME-KUTI", "EIXOS CURATORIAIS", etc.
+
+### OUTPUT
+Gere os 3 arquivos completos e prontos para rodar:
+- index.html
+- style.css  
+- script.js
+
+O site deve transmitir **exatamente** a mesma força, raiva, beleza e profissionalismo do Pitch Master PDF — preto, rasgado, poderoso, africano, grunge e premium ao mesmo tempo.
+
+Faça agora. Este é o resultado final que eu vou usar no Replit.

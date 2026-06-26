@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Felabration Floripa 2026 — 23, 24 e 25 de Outubro. A maior celebração de Afrobeat e Panafricanismo em Florianópolis.">
+<title>FELABRATION FLORIPA 2026 — Afrobeat · Cultura · Resistência</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+<a href="#" class="logo">FELABRATION FLORIPA</a>
+<ul class="nav-links" id="navLinks">
+<li><a href="#about">Sobre</a></li>
+<li><a href="#lineup">Line-up</a></li>
+<li><a href="#schedule">Programação</a></li>
+<li><a href="#experiences">Experiências</a></li>
+<li><a href="#venue">Local</a></li>
+<li><a href="#gallery">Galeria</a></li>
+<li><a href="#lineup" class="btn btn-gold">Evento Gratuito ✦</a></li>
+</ul>
+<button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<section class="hero" id="hero">
+<canvas id="heroCanvas"></canvas>
+<div class="hero-bg"></div>
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<div class="hero-badge"><span class="dot"></span>23 · 24 · 25 de Outubro · Florianópolis, SC</div>
+<h1 class="glitch"><span class="gold">FELABRATION</span><br><span class="red">FLORIPA</span> 2026</h1>
+<p class="hero-sub">A maior celebração de Afrobeat, legado de Fela Kuti e Panafricanismo no sul do Brasil. Todo mundo diz yeah yeah!</p>
+<div class="countdown">
+<div class="unit"><span class="num" id="cd-days">00</span><span class="lbl">Dias</span></div>
+<div class="unit"><span class="num" id="cd-hours">00</span><span class="lbl">Horas</span></div>
+<div class="unit"><span class="num" id="cd-mins">00</span><span class="lbl">Min</span></div>
+<div class="unit"><span class="num" id="cd-secs">00</span><span class="lbl">Seg</span></div>
+</div>
+<div class="hero-badge" style="margin-top:12px;background:rgba(255,215,0,.15);border-color:var(--gold)"><span class="dot" style="background:var(--gold)"></span>Evento 100% Gratuito</div>
+<div class="hero-buttons">
+<a href="#lineup" class="btn btn-gold">Ver Line-up ✦</a>
+<a href="https://instagram.com/felabration.floripa" target="_blank" class="btn btn-outline">Seguir @felabration.floripa →</a>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="about-grid">
+<div class="about-img reveal"><img src="images/culture-art.png" alt="Cultura Afrobeat"><div class="about-tag">Desde 2021 · 6ª Edição</div></div>
+<div class="about-text reveal">
+<span class="section-tag">Nossa História</span>
+<h2>Fela Vive em <span class="gold-text">Floripa</span></h2>
+<p>O Felabration Floripa é a ponte entre o New Afrika Shrine de Lagos e a Ilha da Magia. Há 6 edições, celebramos o legado revolucionário de Fela Anikulapo Kuti — sua música, sua luta, sua alegria indomável.</p>
+<p>Mais que um festival, somos um movimento. Unimos a comunidade negra e periférica de Florianópolis com artistas, ativistas e amantes da cultura afro-diaspórica numa semana de groove, resistência e pura energia.</p>
+<div class="feat-list">
+<div class="feat"><span>🎷</span><span>Concertos Afrobeat ao Vivo</span></div>
+<div class="feat"><span>✊</span><span>Debates & Panafricanismo</span></div>
+<div class="feat"><span>💃</span><span>Afrobics & Capoeira</span></div>
+<div class="feat"><span>🎨</span><span>Exposições & Arte Negra</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="lineup" id="lineup">
+<div class="section-header reveal">
+<span class="section-tag">Line-up</span>
+<h2 class="section-title"><span class="gold-text">ARTISTAS</span> 2026</h2>
+<p class="section-desc">Três dias de groove intenso com os maiores nomes do Afrobeat, Afropop e Samba-Rock do Brasil e do mundo.</p>
+</div>
+<div class="lineup-filters reveal">
+<button class="filter-btn active" data-day="all">Todos</button>
+<button class="filter-btn" data-day="23">Dia 23</button>
+<button class="filter-btn" data-day="24">Dia 24</button>
+<button class="filter-btn" data-day="25">Dia 25</button>
+</div>
+<div class="lineup-grid">
+<div class="artist-card reveal" data-day="23" data-bio="Lenda do afrobeat nigeriano, trazendo o fogo direto de Lagos para a Ilha da Magia. Show histórico.">
+<div class="card-img"><img src="images/artist-1.png" alt="Kolade Shrine"><span class="day-tag">Dia 23</span></div>
+<div class="card-body"><h3>Kolade Shrine</h3><div class="genre">Afrobeat · Lagos</div><div class="card-meta"><span>🕐 21h</span><span>Palco Fela</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="23" data-bio="Voz poderosa que mistura afropop com MPB, representando a nova geração da diáspora africana no Brasil.">
+<div class="card-img"><img src="images/artist-2.png" alt="Aisha Luz"><span class="day-tag">Dia 23</span></div>
+<div class="card-body"><h3>Aisha Luz</h3><div class="genre">Afropop · Salvador</div><div class="card-meta"><span>🕐 19h</span><span>Palco Shrine</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="23" data-bio="Percussão ancestral encontra beats eletrônicos. Uma viagem rítmica que conecta África e Brasil.">
+<div class="card-img"><img src="images/artist-3.png" alt="Batuke Coletivo"><span class="day-tag">Dia 23</span></div>
+<div class="card-body"><h3>Batuke Coletivo</h3><div class="genre">Percussão Eletrônica · Floripa</div><div class="card-meta"><span>🕐 17h</span><span>Palco Raízes</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="24" data-bio="A rainha do samba-rock paulistano. Groove na veia, swing no corpo, alegria na alma.">
+<div class="card-img"><img src="images/artist-4.png" alt="Nina Samba-Rock"><span class="day-tag">Dia 24</span></div>
+<div class="card-body"><h3>Nina Samba-Rock</h3><div class="genre">Samba-Rock · São Paulo</div><div class="card-meta"><span>🕐 20h</span><span>Palco Fela</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="24" data-bio="Saxofonista virtuoso que canaliza o espírito de Fela em cada nota. Imperdível.">
+<div class="card-img"><img src="images/artist-1.png" alt="DJ Shrine"><span class="day-tag">Dia 24</span></div>
+<div class="card-body"><h3>DJ Shrine</h3><div class="genre">Afrobeat DJ Set · Rio</div><div class="card-meta"><span>🕐 23h</span><span>Palco Fela</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="24" data-bio="Fusão de highlife ganês com brasilidade tropical. Uma explosão de cores sonoras.">
+<div class="card-img"><img src="images/artist-2.png" alt="Ama Highlife"><span class="day-tag">Dia 24</span></div>
+<div class="card-body"><h3>Ama Highlife</h3><div class="genre">Highlife · Accra / Floripa</div><div class="card-meta"><span>🕐 18h</span><span>Palco Shrine</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="25" data-bio="Fechamento épico. Afrobeat puro com 12 músicos no palco. A noite que ninguém vai esquecer.">
+<div class="card-img"><img src="images/artist-3.png" alt="Fela Lives Band"><span class="day-tag">Dia 25</span></div>
+<div class="card-body"><h3>Fela Lives Band</h3><div class="genre">Afrobeat · Lagos / SP</div><div class="card-meta"><span>🕐 21h</span><span>Palco Fela</span></div></div>
+</div>
+<div class="artist-card reveal" data-day="25" data-bio="O rap encontra o afrobeat. Letras afiadas sobre batidas irresistíveis.">
+<div class="card-img"><img src="images/artist-4.png" alt="Mãe Preta MC"><span class="day-tag">Dia 25</span></div>
+<div class="card-body"><h3>Mãe Preta MC</h3><div class="genre">Rap Afrobeat · Floripa</div><div class="card-meta"><span>🕐 19h</span><span>Palco Shrine</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="schedule" id="schedule">
+<div class="section-header reveal">
+<span class="section-tag">Programação</span>
+<h2 class="section-title">3 Dias de <span class="gold-text">Groove</span></h2>
+</div>
+<div class="sched-tabs reveal">
+<button class="sched-tab active" data-target="day1">23 OUT — Sexta</button>
+<button class="sched-tab" data-target="day2">24 OUT — Sábado</button>
+<button class="sched-tab" data-target="day3">25 OUT — Domingo</button>
+</div>
+<div class="sched-day active" id="day1">
+<div class="timeline reveal">
+<div class="tl-item"><div class="time">15:00</div><h3>Abertura Oficial + Roda de Capoeira</h3><div class="stage">Palco Raízes</div></div>
+<div class="tl-item"><div class="time">17:00</div><h3>Batuke Coletivo</h3><div class="stage">Palco Raízes</div></div>
+<div class="tl-item"><div class="time">19:00</div><h3>Aisha Luz</h3><div class="stage">Palco Shrine</div></div>
+<div class="tl-item"><div class="time">21:00</div><h3>Kolade Shrine — Show Principal</h3><div class="stage">Palco Fela ★</div></div>
+</div>
+</div>
+<div class="sched-day" id="day2">
+<div class="timeline reveal">
+<div class="tl-item"><div class="time">14:00</div><h3>Debate: Panafricanismo no Brasil</h3><div class="stage">Arena de Debates</div></div>
+<div class="tl-item"><div class="time">18:00</div><h3>Ama Highlife</h3><div class="stage">Palco Shrine</div></div>
+<div class="tl-item"><div class="time">20:00</div><h3>Nina Samba-Rock</h3><div class="stage">Palco Fela</div></div>
+<div class="tl-item"><div class="time">23:00</div><h3>DJ Shrine — Afrobeat All Night</h3><div class="stage">Palco Fela ★</div></div>
+</div>
+</div>
+<div class="sched-day" id="day3">
+<div class="timeline reveal">
+<div class="tl-item"><div class="time">14:00</div><h3>Feira Gastronômica Panafricana</h3><div class="stage">Área Gourmet</div></div>
+<div class="tl-item"><div class="time">16:00</div><h3>Afrobics Dance Competition</h3><div class="stage">Palco Raízes</div></div>
+<div class="tl-item"><div class="time">19:00</div><h3>Mãe Preta MC</h3><div class="stage">Palco Shrine</div></div>
+<div class="tl-item"><div class="time">21:00</div><h3>Fela Lives Band — Grand Finale</h3><div class="stage">Palco Fela ★</div></div>
+</div>
+</div>
+</section>
+
+<section class="experiences" id="experiences">
+<div class="section-header reveal">
+<span class="section-tag">Experiências</span>
+<h2 class="section-title">Além da <span class="gold-text">Música</span></h2>
+<p class="section-desc">Gastronomia, arte, dança, debates — uma imersão completa na cultura afro-diaspórica.</p>
+</div>
+<div class="exp-grid">
+<div class="exp-card reveal"><span class="exp-icon">🍲</span><h3>Feira Gastronômica Panafricana</h3><p>Sabores da Nigéria, Gana, Senegal e Brasil reunidos numa experiência culinária ancestral.</p></div>
+<div class="exp-card reveal"><span class="exp-icon">🥁</span><h3>Workshops de Percussão</h3><p>Aprenda ritmos do djembê ao atabaque com mestres da percussão afro-brasileira.</p></div>
+<div class="exp-card reveal"><span class="exp-icon">🎨</span><h3>Exposição de Arte Negra</h3><p>Artistas visuais da comunidade negra catarinense em exposições que provocam e inspiram.</p></div>
+<div class="exp-card reveal"><span class="exp-icon">🤸</span><h3>Roda de Capoeira & Afrobics</h3><p>Movimento, ancestralidade e energia. Do berimbau ao afrobeat, o corpo celebra.</p></div>
+<div class="exp-card reveal"><span class="exp-icon">💬</span><h3>Debates Panafricanos</h3><p>Intelectuais e ativistas discutem raça, política e cultura no espírito crítico de Fela.</p></div>
+<div class="exp-card reveal"><span class="exp-icon">👗</span><h3>Desfile Afro Fashion</h3><p>Moda afrocêntrica, estilistas negros e o orgulho de se vestir com identidade.</p></div>
+</div>
+</section>
+
+<section class="venue" id="venue">
+<div class="venue-grid">
+<div class="venue-img reveal"><img src="images/floripa-aerial.png" alt="Florianópolis"></div>
+<div class="venue-info reveal">
+<span class="section-tag">Local</span>
+<h2>Florianópolis, <span class="gold-text">Ilha da Magia</span></h2>
+<p>A energia do Afrobeat encontra a beleza tropical de Floripa. Três dias de festival no coração da ilha.</p>
+<div class="venue-details">
+<div class="venue-detail"><span>📍</span><span>Florianópolis, Santa Catarina</span></div>
+<div class="venue-detail"><span>📅</span><span>23, 24 e 25 de Outubro de 2026</span></div>
+<div class="venue-detail"><span>✈️</span><span>Aeroporto Hercílio Luz (FLN)</span></div>
+<div class="venue-detail"><span>🚌</span><span>Terminal TICEN — Linha direta</span></div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="gallery" id="gallery">
+<div class="section-header reveal">
+<span class="section-tag">Galeria</span>
+<h2 class="section-title">Memórias <span class="gold-text">Vivas</span></h2>
+</div>
+<div class="gallery-grid">
+<div class="gallery-item reveal"><img src="images/hero-bg.png" alt="Festival"><div class="g-overlay"><span>Felabration 2025</span></div></div>
+<div class="gallery-item reveal"><img src="images/concert-scene.png" alt="Show"><div class="g-overlay"><span>Palco Fela</span></div></div>
+<div class="gallery-item reveal"><img src="images/culture-art.png" alt="Cultura"><div class="g-overlay"><span>Arte & Cultura</span></div></div>
+<div class="gallery-item reveal"><img src="images/artist-1.png" alt="Artista"><div class="g-overlay"><span>Live Session</span></div></div>
+<div class="gallery-item reveal"><img src="images/artist-3.png" alt="Percussão"><div class="g-overlay"><span>Percussão</span></div></div>
+</div>
+</section>
+
+<section class="community" id="community">
+<div class="section-header reveal">
+<span class="section-tag">Apoio</span>
+<h2 class="section-title">Quem Faz <span class="gold-text">Acontecer</span></h2>
+</div>
+<div class="sponsors-row reveal">
+<div class="sponsor">🎵 Bota Pra Mexer</div>
+<div class="sponsor">🎭 Saravá Cultural</div>
+<div class="sponsor">🏛 Prefeitura de Florianópolis</div>
+<div class="sponsor">🌴 SC Turismo</div>
+<div class="sponsor">🎶 FK Management</div>
+<div class="sponsor">📻 Rádio Campeche</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="cta-content reveal">
+<span class="section-tag">Fela Vive!</span>
+<h2>A Revolução é na <span class="gold-text">Pista de Dança</span></h2>
+<p>23, 24 e 25 de Outubro de 2026 · Florianópolis, SC. Todo mundo diz yeah yeah!</p>
+<div class="cta-buttons">
+<a href="#lineup" class="btn btn-gold">Evento Gratuito — Veja o Line-up ✦</a>
+<a href="https://instagram.com/felabration.floripa" target="_blank" class="btn btn-outline">Seguir @felabration.floripa →</a>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="footer-grid">
+<div class="footer-brand">
+<span class="logo">FELABRATION FLORIPA</span>
+<p>Festival anual de Afrobeat, cultura e resistência em Florianópolis. Celebrando Fela Kuti e o Panafricanismo desde 2021.</p>
+<div class="footer-social">
+<a href="https://instagram.com/felabration.floripa" target="_blank">📷</a>
+<a href="#" target="_blank">𝕏</a>
+<a href="#" target="_blank">f</a>
+<a href="#" target="_blank">▶</a>
+</div>
+</div>
+<div class="footer-col"><h4>Navegação</h4><ul>
+<li><a href="#about">Sobre</a></li><li><a href="#lineup">Line-up</a></li>
+<li><a href="#schedule">Programação</a></li><li><a href="#gallery">Galeria</a></li>
+</ul></div>
+<div class="footer-col"><h4>Experiências</h4><ul>
+<li><a href="#experiences">Gastronomia</a></li><li><a href="#experiences">Workshops</a></li>
+<li><a href="#experiences">Arte</a></li><li><a href="#experiences">Debates</a></li>
+</ul></div>
+<div class="footer-col"><h4>Contato</h4><ul>
+<li><a href="#">contato@felabrationfloripa.com.br</a></li>
+<li><a href="#">@felabration.floripa</a></li>
+<li><a href="#venue">Florianópolis, SC</a></li>
+</ul></div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Felabration Floripa. Todos os direitos reservados. Produção: Bota Pra Mexer.</span>
+<div class="footer-bottom-links"><a href="#">Privacidade</a><a href="#">Termos</a></div>
+</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="artistModal">
+<div class="modal"><button class="modal-close">✕</button><div id="modalBody"></div></div>
+</div>
+
+<!-- MINI PLAYER -->
+<div class="player paused" id="miniPlayer">
+<div class="visualizer"><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
+<span class="track-name" id="trackName">—</span>
+<div class="player-controls">
+<button id="prevBtn">⏮</button>
+<button id="playBtn">▶</button>
+<button id="nextBtn">⏭</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

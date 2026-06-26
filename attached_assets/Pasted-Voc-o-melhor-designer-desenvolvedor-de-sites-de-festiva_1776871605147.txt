@@ -1,0 +1,89 @@
+Você é o melhor designer + desenvolvedor de sites de festival do planeta, especializado em estética **Black Grunge Premium** idêntica ao "Felabration 2026 Pitch Master.pdf" (PDF anexado no projeto).
+
+### MISSÃO CRÍTICA
+Crie um site **100% fiel** à identidade visual e ao conteúdo completo do Pitch Master (todas as 12 páginas). O resultado deve parecer que o site foi extraído diretamente do pitch deck, mas transformado em experiência web imersiva, moderna e interativa.
+
+### 1. IDENTIDADE VISUAL OBRIGATÓRIA (copie fielmente do PDF)
+
+- **Fundo**: Preto profundo (#0A0A0A) com textura de madeira rachada + grain sutil + papel envelhecido
+- **Tipografia**: Títulos grandes, bold, condensados e distressed (Bebas Neue ou similar com efeitos de rasgo, distorção e grain). Cor principal: branco sujo (#F5F0E8) + vermelho sangue (#E6392B) + amarelo sujo (#FFD700)
+- **Elementos visuais fixos**:
+  - Molduras de polaroid com bordas brancas rasgadas (torn paper effect) + leve rotação aleatória
+  - Digital da África (fingerprint) em laranja, vermelho e verde
+  - Estrelas recortadas com fotos dentro (como página 6)
+  - Papel rasgado, fita adesiva, vinheta pesada e grain em todas as imagens
+  - Alto contraste + leve desaturação nas fotos
+
+**Navegação exata do pitch**:
+- Esquerda: ícone de fone + "AFROBEAT MUSIC FESTIVAL"
+- Centro: MÚSICA | ARTE | EDUCAÇÃO | INOVAÇÃO
+- Direita: botão "EVENTO 100% GRATUITO"
+
+### 2. ESTRUTURA COMPLETA (respeite a ordem e conteúdo das 12 páginas)
+
+1. **Hero** → Página 1 (Fela de punhos erguidos + ponte iluminada + "FELABRATION FLORIPA" gigante + digital da África + partículas de luz)
+
+2. **A RUA É O PALCO** → Página 2 (texto completo + 4 polaroids)
+
+3. **FESTIVAL AFRO-DIASPÓRICO** → Página 3 (título grande + texto completo + colagem circular de fotos)
+
+4. **FUNMILAYO RANSOME-KUTI** → Página 4 (título amarelo grande + foto da mãe + texto + Fela de punhos)
+
+5. **CURADORIA ARTÍSTICA + ECONOMIA CRIATIVA** → Página 5 (layout dividido com polaroids à esquerda)
+
+6. **EIXOS CURATORIAIS** → Página 6 (os 7 eixos com estrelas recortadas e fotos – use grid de estrelas ou polaroids grandes)
+
+7. **IMPACTO SOCIAL** → Página 7 (3 colunas com digitais da África coloridas + texto grande no rodapé)
+
+8. **SEJA PATROCINADOR** → Página 8 (círculo branco grande com **TODOS os logos institucionais** listados abaixo + texto à direita)
+
+9. **POR QUE SUA MARCA... + ODS + ESG** → Página 9 (layout de 3 colunas com ícones de digital)
+
+10. **MINI BIO BOTA PRA MEXER** → Página 10 (fotos em polaroid + **descrição completa de Nenuco, DeShA e Bota Pra Mexer**)
+
+11. **MANIFESTO** → Página 11 (texto completo + 3 polaroids ovais)
+
+12. **CONTATO + OBRIGADO** → Página 12 (mural de grafite + texto final + contato: 48. 9 9145 4084)
+
+### 3. LOGOS E PESSOAS OBRIGATÓRIOS (não esqueça nada)
+
+**Logos institucionais (página 8)** – coloque todos em círculo branco grande estilo papel rasgado:
+- FUNDAÇÃO CULTURAL DE FLORIANÓPOLIS FRANKLIN CASCAES
+- UFSC
+- INSTITUTO FEDERAL Santa Catarina Câmpus Florianópolis-Continente
+- UDESC
+- CUFA
+- abraseL
+- SEBRAE
+- NDTV
+- itapema FM
+- GALERIA LAMA
+- BENCEL
+
+**Pessoas (página 10)** – coloque foto + descrição completa:
+- **Nenuco**: foto + texto completo sobre ele (músico, baixista, Palmeras Kanibales, produtor em Floripa)
+- **DeShA**: foto + texto completo (DJ, pesquisador, fundador da Bota Pra Mexer, França + Brasil)
+- **Bota Pra Mexer**: foto + texto completo sobre a produtora e a dupla DeShA + Nenuco
+
+### 4. REGRAS TÉCNICAS (Replit)
+
+- Use Tailwind + CSS custom para todos os efeitos grunge (torn paper, grain, distressed text, polaroid tilt)
+- Canvas hero com partículas de luz + digital da África sutil
+- Mini player fixo no canto inferior com visualizer (estilize no tema grunge)
+- Scroll reveal com efeito "papel rasgando"
+- Totalmente responsivo e performático
+- Sem qualquer seção de ingressos (sempre "EVENTO 100% GRATUITO")
+- Mantenha o modal de artista, mas estilize no tema grunge
+
+### 5. CONTEÚDO
+Copie os textos **quase verbatim** do PDF (ajuste apenas para fluir no web quando necessário). Use os títulos exatos do pitch.
+
+### OUTPUT FINAL
+Gere os 3 arquivos completos e prontos para rodar no Replit:
+- index.html
+- style.css
+- script.js
+
+O site deve transmitir **exatamente** a mesma força visual, raiva, beleza e profissionalismo do Pitch Master PDF — preto, rasgado, poderoso, africano e premium.
+
+Execute agora com máxima fidelidade.

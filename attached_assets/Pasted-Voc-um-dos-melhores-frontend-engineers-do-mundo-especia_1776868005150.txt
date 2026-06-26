@@ -1,0 +1,58 @@
+Você é um dos melhores frontend engineers do mundo especializado em sites imersivos de festivais de música com estética **Black Grunge Afro-Futurista** de alto nível (estilo Pitch Master 2026 + Design System Felabration).
+
+### TAREFA
+Faça um **upgrade completo** do template zipado do Felabration Floripa 2026 (index.html + style.css + script.js + pasta images) para que o site tenha **exatamente a estrutura visual, mood e linguagem do "Felabration 2026 Pitch Master.pdf"** (o PDF Black White Grunge que estou anexando junto).
+
+### DIRETRIZES OBRIGATÓRIAS
+
+**1. Estética Geral (Pitch Master Priority)**
+- Fundo preto grunge profundo (#0A0A0A + textura sutil de papel rasgado/noise)
+- Tipografia bold, condensada e impactante (use Bebas Neue ou similar + Inter para corpo)
+- Acentos principais: laranja queimado/vermelho sangue (#E6392B e #FF4500) + branco sujo + detalhes em dourado sujo e cyan neon sutil
+- Elementos grunge: polaroids com bordas rasgadas, fita adesiva, leve rotação aleatória, vinheta, grain, sombras pesadas
+- Motivo da digital da África (fingerprint) e silhueta do mapa da África em vários pontos (hero, footer, backgrounds)
+- Imagens com tratamento grunge: alto contraste, leve desaturação, filtro "torn paper" via CSS
+
+**2. Estrutura de Seções (exatamente como o Pitch Master)**
+- **Hero** → Réplica fiel da página 1 do pitch: Fela de punhos erguidos à esquerda + ponte iluminada à direita + "FELABRATION FLORIPA" gigante em tipografia grunge rasgada + "AFROBEAT MUSIC FESTIVAL" + digital da África + partículas de luz/ faíscas
+- **Nav** → Logo "AFROBEAT MUSIC FESTIVAL" (com ícone de fone) + links: MÚSICA | ARTE | EDUCAÇÃO | INOVAÇÃO + botão "EVENTO 100% GRATUITO"
+- **Sobre** → "A RUA É O PALCO. A MÚSICA É RESISTÊNCIA." (texto do pitch página 2) com polaroids sobrepostas
+- **Line-up** → Cards de artistas em estilo polaroid com bordas rasgadas + hover 3D + tilt
+- **Programação** → Timeline vertical com visual grunge (linhas de fita, pontos luminosos)
+- **Experiências** → Grid de cards com ícones grandes + polaroid frames
+- **Local** → Foto aérea de Floripa com tratamento grunge + overlay da ponte
+- **Galeria** → Masonry grid de polaroids com rotação aleatória e zoom cinematic
+- **Apoio / Comunidade** → Logos em estilo carimbo grunge
+- **CTA Final** → "FELA VIVE!" com botão gigante e confetti em laranja/vermelho
+
+**3. Remoções Obrigatórias**
+- Remova **qualquer** menção a ingressos, preços, "comprar", "ticket" ou "passaporte"
+- Em todo lugar coloque **"ENTRADA 100% GRATUITA • 23 • 24 • 25 OUT 2026 • FLORIANÓPOLIS"**
+
+**4. Funcionalidades Modernas (Replit Core Level)**
+- Canvas hero com partículas de luz + conexão de pontos + efeito glitch no título
+- Mini player fixo no canto inferior direito com visualizer de barras EQ (faixas clássicas de Fela)
+- Modal de artista com foto em polaroid gigante + bio + "tocar trecho"
+- Scroll reveal com efeito "papel rasgando" (transform + opacity + grain)
+- 3D tilt nos cards de artista (já existe, melhore)
+- Confetti ao clicar em qualquer CTA (mas em tons laranja/vermelho)
+- Totalmente responsivo + mobile-first com hamburger animado (estilo grunge)
+- Performance: lazy loading, will-change, GPU acceleration, < 1.2s LCP
+
+**5. Cores Exatas (mistura Design System + Pitch)**
+--black: #0A0A0A  
+--surface: #111111  
+--orange: #E6392B  
+--gold-dirty: #C9A227  
+--white-dirty: #F5F0E8  
+--cyan-neon: #00F0FF (sutil)
+
+**6. Output Final**
+Gere **apenas** os 3 arquivos atualizados:
+- index.html (completo)
+- style.css (completo e otimizado)
+- script.js (completo)
+
+O site deve estar **pronto para rodar no Replit** (sem dependências externas além das fontes Google que já estão). Mantenha o espírito revolucionário, alegre e indomável de Fela Kuti, mas com a linguagem visual **Black Grunge** do Pitch Master 2026.
+
+Faça isso agora. O resultado precisa ser **cinematográfico, premium e brutalmente fiel** ao pitch.

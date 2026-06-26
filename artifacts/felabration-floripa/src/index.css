@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&family=Anton&family=Special+Elite&family=Playfair+Display:wght@700;900&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --font-sans: var(--app-font-sans);
+  --font-display: var(--app-font-display);
+}
+
+:root {
+  --background: 0 0% 4%;
+  --foreground: 36 33% 93%;
+  --border: 0 0% 15%;
+  --input: 0 0% 15%;
+  --ring: 43 100% 50%;
+  --card: 0 0% 9%;
+  --card-foreground: 36 33% 93%;
+  --primary: 43 100% 50%;
+  --primary-foreground: 0 0% 5%;
+  --muted: 0 0% 12%;
+  --muted-foreground: 30 8% 60%;
+  --accent: 3 78% 55%;
+  --accent-foreground: 36 33% 93%;
+
+  --app-font-sans: 'Inter', sans-serif;
+  --app-font-display: 'Anton', 'Bebas Neue', sans-serif;
+  
+  /* TROPICAL AFRO-BRUTALISM PALETTE */
+  --fela-pitch: #030303;     /* Absolute Black */
+  --fela-surface: #0a0a0a;   /* Slightly lighter for cards */
+  --fela-paper: #e6dfcc;     /* Tactile off-white paper */
+  --fela-gold: #ffb703;      /* Vibrant Afro-gold */
+  --fela-gold-d: #fb8500;    /* Deep Orange/Gold */
+  --fela-red: #d90429;       /* Resistance Red */
+  --fela-red-d: #ef233c;     /* Lighter Red */
+  --fela-green: #2a9d8f;     /* Tropical Forest */
+  --fela-cyan: #4cc9f0;      /* Oceanic Cyan */
+  --fela-border: #333333;    /* Sharp Brutalist Borders */
+  
+  --tr: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
+body {
+  font-family: var(--app-font-sans);
+  background: var(--fela-pitch);
+  color: var(--fela-paper);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--fela-pitch); }
+::-webkit-scrollbar-thumb { background: var(--fela-gold); border-radius: 0; }
+
+h1, h2, h3, .display { 
+  font-family: var(--app-font-display); 
+  letter-spacing: 2px; 
+  line-height: 0.9; 
+  text-transform: uppercase;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+
+/* ============ TACTILE BRUTALISM: NOISE & PAPER ============ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  /* Carbon-Aware Noise Shader */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.25'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.25;
+  mix-blend-mode: overlay;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255,255,255,0.015) 1px, rgba(255,255,255,0.015) 2px);
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* ============ FLUID TYPOGRAPHY & KINETIC ============ */
+.kinetic-text {
+  font-size: clamp(3rem, 10vw + 1rem, 12rem);
+  font-family: var(--app-font-display);
+  color: transparent;
+  -webkit-text-stroke: 1px var(--fela-paper);
+  transition: var(--tr);
+}
+.kinetic-text:hover {
+  color: var(--fela-gold);
+  -webkit-text-stroke: 1px var(--fela-gold);
+  transform: skewX(-10deg);
+}
+
+/* ============ BRUTALIST BORDERS & BUTTONS ============ */
+.brutalist-border {
+  border: 1px solid var(--fela-border);
+  box-shadow: 4px 4px 0 var(--fela-gold);
+  transition: var(--tr);
+}
+.brutalist-border:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--fela-red);
+}
+
+.btn-brutal {
+  background: var(--fela-gold);
+  color: var(--fela-pitch);
+  font-family: var(--app-font-display);
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  border: 1px solid var(--fela-pitch);
+  box-shadow: 4px 4px 0 var(--fela-red);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.btn-brutal:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--fela-red);
+}
+.btn-brutal:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0 var(--fela-red);
+}
+
+/* ============ ANIMATIONS ============ */
+@keyframes pulse-beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+@keyframes wave-flow {
+  0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}
+
+.wave-shape {
+  animation: wave-flow 8s ease-in-out infinite;
+  background: linear-gradient(135deg, var(--fela-cyan), var(--fela-green));
+}

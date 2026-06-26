@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Felabration Floripa 2026"
+version = "1.0.0"
+id = "artifacts/felabration-floripa"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19376
+
+[services.development]
+run = "pnpm --filter @workspace/felabration-floripa run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/felabration-floripa", "run", "build" ]
+publicDir = "artifacts/felabration-floripa/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19376"
+BASE_PATH = "/"
